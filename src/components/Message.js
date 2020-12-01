@@ -8,7 +8,7 @@ function Message({ timestamp, user, message }) {
       <Avatar src={user.photo} />
       <div className="message__ino">
         <h4>
-          jeswin{" "}
+          {user.displayName}
           <span className="message__timestamp">
             {new Date(timestamp?.toDate()).toUTCString()}
           </span>
