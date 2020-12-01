@@ -1,0 +1,21 @@
+{
+  "name": "Discord clone",
+  "short_name": "Discord web clone",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
